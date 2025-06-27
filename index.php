@@ -6,9 +6,9 @@ include "header.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <!--favicon-->
-    <link rel="icon" type="image/x-icon" href="../Images/cooltech.png">
+    <link rel="icon" type="image/x-icon" href="Images/cooltech.png">
     <title>BRWGo</title>
 </head>
 <body>
@@ -47,14 +47,14 @@ include "header.php";
                             <div class="form-group-button">
                                 <input type="submit" value="LOGIN">
                                 <!--<input type="submit" value="SIGN UP">-->
-                                <button type="button" onclick="window.location.href='Authentication/signup.php'">SIGN UP</button>
+                                <button type="button" onclick="window.location.href='PHP/Authentication/signup.php'">SIGN UP</button>
                                 <br><br>
 
                                 
                             </div>
                             <br>
                             
-                            <a href="Authentication/forgot.php">Forgot Password</a>
+                            <a href="PHP/Authentication/forgot.php">Forgot Password</a>
                            
                             
                         </form>
@@ -86,13 +86,13 @@ include "header.php";
                                         //setcookie('admin_session', '30', time() + 3600, '/');
                                         setcookie("admin_session", $_SESSION['username'] , time() + 3600, "/");
                                         setcookie("admin_uid", $_SESSION['uid'] , time() + 3600, "/");
-                                        header("Location: Admin/adminhome.php");
+                                        header("Location: PHP/Admin/adminhome.php");
                                         exit();
                                     }else{
                                         //setcookie('customer_session', '30', time() + 3600, '/');
                                         setcookie("customer_session", $_SESSION['username'] , time() + 3600, "/");
                                         setcookie("customer_uid", $_SESSION['uid'] , time() + 3600, "/");
-                                        header("Location: Customer/customerhome.php");
+                                        header("Location: PHP/Customer/customerhome.php");
                                         exit();
                                     }
 

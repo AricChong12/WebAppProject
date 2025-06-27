@@ -1,5 +1,5 @@
 <?php
-include "../header.php";
+include "../../header.php";
 ?>
 
 <html lang="en">
@@ -53,7 +53,7 @@ include "../header.php";
                             <div class="form-group-button">
                                 <input type="submit" value="SIGN UP">
                                 <!--<input type="submit" value="CANCEL">-->
-                                <button type="button" onclick="window.location.href='../index.php'">CANCEL</button>
+                                <button type="button" onclick="window.location.href='../../index.php'">CANCEL</button>
                                 <br><br>
                             </div>
                             

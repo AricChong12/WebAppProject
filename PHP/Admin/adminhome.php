@@ -1,6 +1,6 @@
 <?php
 session_name("admin_session");
-include "../header.php";
+include "../../header.php";
 
     
 ?>
@@ -32,7 +32,7 @@ include "../header.php";
             
             <h1>BUSINESS REGISTRATION WEBSITE</h1>
             <hr style="width: 100%; height: 2px;">
-            <button type="button" onclick="window.location.href='../index.php'">LOGOUT</button>
+            <button type="button" onclick="window.location.href='../../index.php'">LOGOUT</button>
         </div>
 
         <div id="navigation">
