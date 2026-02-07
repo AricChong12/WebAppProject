@@ -16,4 +16,5 @@ Termination Approve - Approves or rejects user business termination application
 
 3. Logout the website at each admin or customer homepage.
 
-By - Aric
+Contributors
+1. AricChong12
