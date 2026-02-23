@@ -7,7 +7,7 @@ The Business Registration Web Application (BRWGo) applies a structured web archi
 
 
 ## ⚙️ Entity-Relationship Diagram
-![ERD]()
+![ERD](https://github.com/AricChong12/WebAppProject/blob/main/ERD.png)
 
 
 
