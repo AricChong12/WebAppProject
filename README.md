@@ -1,4 +1,4 @@
-# Web App Development
+# Web App Development (Individual Project)
 ## 📚 Introduction
 
 
